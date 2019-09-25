@@ -40,19 +40,13 @@ class MoviesRepository(
     }
 
     private suspend fun fetchMovies() {
-        println("entro a fetch movies ")
         val lastSavedAt = prefs.getLastSavedAt()
-        println("last movies $lastSavedAt")
-//        println("Is fetch?? ${isFetchNeeded(LocalDateTime.parse(lastSavedAt))}")
         if (lastSavedAt == "" || isFetchNeeded(LocalDateTime.parse(lastSavedAt))) {
-            println("entroal if")
             val response = apiRequest { api.getMovies() }
             movies.postValue(response.results)
         }else{
-            println("entro al else")
             val response = apiRequest { api.getMovies() }
             movies.postValue(response.results)
-            println("Response:::?? ${response.results}")
         }
     }
 
@@ -64,7 +58,6 @@ class MoviesRepository(
     @SuppressLint("NewApi")
     private fun saveMovies(movies: List<Movie>) {
         Coroutines.io {
-            println("Check new is gonna save ${LocalDateTime.now().toString()}")
             prefs.saveLastSavedAt(LocalDateTime.now().toString())
             db.getMovieDao().saveAllMovies(movies)
         }

@@ -11,7 +11,7 @@ import com.fcoconstante.cinemma.data.db.entities.Movie
 interface MovieDao {
 
     @Insert(onConflict = OnConflictStrategy.REPLACE)
-    suspend fun saveAllMovies(quotes : List<Movie>)
+    suspend fun saveAllMovies(movies : List<Movie>)
 
     @Query("SELECT * FROM Movie")
     fun getMovies() : LiveData<List<Movie>>

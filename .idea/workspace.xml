@@ -7,19 +7,12 @@
   </component>
   <component name="AndroidLogFilters">
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+    <option name="TOOL_WINDOW_REGEXP_FILTER" value="false" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="89a7c889-bf2b-4f98-b458-43b5c627d078" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/navEditor.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/fcoconstante/cinemma/app/CiemaApp.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/fcoconstante/cinemma/data/network/DBMovieApi.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/fcoconstante/cinemma/data/network/MoviesResponse.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/fcoconstante/cinemma/data/network/NetworkConnectionInterceptor.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/fcoconstante/cinemma/data/network/SafeApiRequest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/fcoconstante/cinemma/data/preferences/PreferenceProvider.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/fcoconstante/cinemma/data/repositories/MoviesRepository.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/fcoconstante/cinemma/ui/movies/MovieItem.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/fcoconstante/cinemma/ui/movies/MoviesViewModelFactory.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/fcoconstante/cinemma/ui/movies/DetailMovieActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_detail_movie.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" afterDir="false" />
@@ -30,13 +23,17 @@
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/fcoconstante/cinemma/ui/home/HomeActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/fcoconstante/cinemma/ui/home/HomeActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/fcoconstante/cinemma/app/CiemaApp.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/fcoconstante/cinemma/app/CinemaApp.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/fcoconstante/cinemma/data/db/MovieDao.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/fcoconstante/cinemma/data/db/MovieDao.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/fcoconstante/cinemma/data/repositories/MoviesRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/fcoconstante/cinemma/data/repositories/MoviesRepository.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/fcoconstante/cinemma/ui/movies/MovieFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/fcoconstante/cinemma/ui/movies/MovieFragment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/fcoconstante/cinemma/ui/movies/MovieViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/fcoconstante/cinemma/ui/movies/MovieViewModel.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/movie_fragment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/movie_fragment.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/navigation/nav_graph.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/navigation/nav_graph.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/fcoconstante/cinemma/ui/movies/MovieItem.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/fcoconstante/cinemma/ui/movies/MovieItem.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/item_movie.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_movie.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -63,38 +60,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/fcoconstante/cinemma/ui/home/HomeActivity.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
-              <folding>
-                <element signature="e#42#283#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_home.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="21" column="14" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
-            </state>
-          </provider>
-          <provider editor-type-id="android-designer2" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/navigation/nav_graph.xml">
-          <provider editor-type-id="text-editor" />
-          <provider selected="true" editor-type-id="nav-designer" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/fcoconstante/cinemma/data/repositories/MoviesRepository.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
-              <caret line="45" selection-start-line="45" selection-end-line="45" />
+            <state relative-caret-position="305">
+              <caret line="59" column="23" selection-start-line="59" selection-start-column="23" selection-end-line="59" selection-end-column="23" />
               <folding>
                 <element signature="e#52#713#0" expanded="true" />
               </folding>
@@ -103,68 +72,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/fcoconstante/cinemma/data/preferences/PreferenceProvider.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
-              <folding>
-                <element signature="e#51#167#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/fcoconstante/cinemma/data/network/DBMovieApi.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="56">
-              <caret line="6" column="52" selection-start-line="6" selection-start-column="52" selection-end-line="6" selection-end-column="52" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-          <provider editor-type-id="android-manifest" />
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/fcoconstante/cinemma/ui/movies/MoviesViewModelFactory.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-              <folding>
-                <element signature="e#44#191#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/fcoconstante/cinemma/app/CiemaApp.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="26" column="48" selection-start-line="26" selection-start-column="48" selection-end-line="26" selection-end-column="48" />
-              <folding>
-                <element signature="e#38#248#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/fcoconstante/cinemma/ui/movies/MovieFragment.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="945">
-              <caret line="63" column="24" selection-start-line="63" selection-start-column="24" selection-end-line="63" selection-end-column="24" />
+            <state relative-caret-position="413">
+              <caret line="64" column="39" selection-start-line="64" selection-start-column="39" selection-end-line="64" selection-end-column="39" />
               <folding>
-                <element signature="e#44#515#0" expanded="true" />
+                <element signature="e#44#792#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="386">
+              <caret line="81" column="66" lean-forward="true" selection-start-line="44" selection-start-column="4" selection-end-line="81" selection-end-column="66" />
             </state>
           </provider>
         </entry>
@@ -185,6 +108,13 @@
       <find>androidx.navigation.navigation-safe-args-gradle-plugin:2.1.0-alpha05:</find>
       <find>authm</find>
       <find>auth</find>
+      <find>colorPrimaryDark</find>
+      <find>toas</find>
+      <find>quote</find>
+      <find>quot</find>
+      <find>viewHolde</find>
+      <find>adapterQuote</find>
+      <find>print</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -196,39 +126,41 @@
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/gradle.properties" />
         <option value="$PROJECT_DIR$/app/src/androidTest/java/com/fcoconstante/cinemma/ExampleInstrumentedTest.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/res/values/styles.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/anim/anim.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/fcoconstante/cinemma/ui/MainActivity.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/menu/nav_menu.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/fcoconstante/cinemma/data/db/Movie.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/fcoconstante/cinemma/data/db/entities/Movie.kt" />
         <option value="$PROJECT_DIR$/app/build.gradle" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_home.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/item_movie.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/fcoconstante/cinemma/util/Coroutines.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/fcoconstante/cinemma/util/Converters.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/fcoconstante/cinemma/util/Delegates.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/fcoconstante/cinemma/util/Exceptions.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/fcoconstante/cinemma/util/ViewUtils.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/fcoconstante/cinemma/data/db/AppDatabase.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/fcoconstante/cinemma/data/db/MovieDao.kt" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/movie_fragment.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/fcoconstante/cinemma/ui/home/HomeActivity.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/fcoconstante/cinemma/data/network/MoviesResponse.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/fcoconstante/cinemma/data/network/MyApi.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/fcoconstante/cinemma/data/network/SafeApiRequest.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/fcoconstante/cinemma/data/network/NetworkConnectionInterceptor.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/fcoconstante/cinemma/ui/movies/MovieItem.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/fcoconstante/cinemma/ui/movies/MovieViewModel.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/fcoconstante/cinemma/ui/movies/MovieFragment.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/fcoconstante/cinemma/ui/movies/MoviesViewModelFactory.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/fcoconstante/cinemma/app/CiemaApp.kt" />
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/navigation/nav_graph.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/fcoconstante/cinemma/data/preferences/PreferenceProvider.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/styles.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_detail_movie.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/fcoconstante/cinemma/ui/movies/DetailMovieActivity.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/fcoconstante/cinemma/data/db/MovieDao.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/fcoconstante/cinemma/ui/movies/MovieItem.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/item_movie.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/fcoconstante/cinemma/data/repositories/MoviesRepository.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/fcoconstante/cinemma/ui/movies/MovieFragment.kt" />
       </list>
     </option>
   </component>
@@ -245,7 +177,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="AndroidView">
         <subPane>
@@ -257,75 +188,61 @@
             <path>
               <item name="CineMMa" type="1abcf292:AndroidViewProjectNode" />
               <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="manifests" type="f94875db:AndroidManifestsGroupNode" />
-            </path>
-            <path>
-              <item name="CineMMa" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
               <item name="java" type="edd41e36:AndroidSourceTypeNode" />
             </path>
             <path>
               <item name="CineMMa" type="1abcf292:AndroidViewProjectNode" />
               <item name="app" type="feadf853:AndroidModuleNode" />
               <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="cinemma" type="cbb59c9e:AndroidPsiDirectoryNode" />
             </path>
             <path>
               <item name="CineMMa" type="1abcf292:AndroidViewProjectNode" />
               <item name="app" type="feadf853:AndroidModuleNode" />
               <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="fcoconstante" type="462c0819:PsiDirectoryNode" />
+              <item name="cinemma" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CineMMa" type="1abcf292:AndroidViewProjectNode" />
               <item name="app" type="feadf853:AndroidModuleNode" />
               <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="fcoconstante" type="462c0819:PsiDirectoryNode" />
-              <item name="cinemma" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CineMMa" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="fcoconstante" type="462c0819:PsiDirectoryNode" />
-              <item name="cinemma" type="462c0819:PsiDirectoryNode" />
+              <item name="cinemma" type="cbb59c9e:AndroidPsiDirectoryNode" />
               <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CineMMa" type="1abcf292:AndroidViewProjectNode" />
               <item name="app" type="feadf853:AndroidModuleNode" />
               <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="fcoconstante" type="462c0819:PsiDirectoryNode" />
-              <item name="cinemma" type="462c0819:PsiDirectoryNode" />
+              <item name="cinemma" type="cbb59c9e:AndroidPsiDirectoryNode" />
               <item name="data" type="462c0819:PsiDirectoryNode" />
               <item name="network" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CineMMa" type="1abcf292:AndroidViewProjectNode" />
               <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="cinemma" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CineMMa" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="cinemma" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+              <item name="movies" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CineMMa" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
               <item name="res" type="d4f16f75:AndroidResFolderNode" />
             </path>
             <path>
               <item name="CineMMa" type="1abcf292:AndroidViewProjectNode" />
               <item name="app" type="feadf853:AndroidModuleNode" />
               <item name="res" type="d4f16f75:AndroidResFolderNode" />
-              <item name="layout" type="ddeffd01:AndroidResFolderTypeNode" />
-            </path>
-            <path>
-              <item name="CineMMa" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="res" type="d4f16f75:AndroidResFolderNode" />
-              <item name="menu" type="ddeffd01:AndroidResFolderTypeNode" />
-            </path>
-            <path>
-              <item name="CineMMa" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="res" type="d4f16f75:AndroidResFolderNode" />
-              <item name="navigation" type="ddeffd01:AndroidResFolderTypeNode" />
+              <item name="values" type="ddeffd01:AndroidResFolderTypeNode" />
             </path>
             <path>
               <item name="CineMMa" type="1abcf292:AndroidViewProjectNode" />
@@ -336,6 +253,7 @@
         </subPane>
       </pane>
       <pane id="ProjectPane" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -351,25 +269,26 @@
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/app/src/main/java/com/fcoconstante/cinemma/data/db/entities" />
-    </key>
-    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
-      <recent name="com.fcoconstante.cinemma.ui" />
-    </key>
-    <key name="android.template.packageName">
-      <recent name="com.fcoconstante.cinemma.ui.home" />
-    </key>
-    <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
-      <recent name="com.fcoconstante.cinemma.ui.movies" />
-      <recent name="com.fcoconstante.cinemma.data.network" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/app/src/main/java/com/fcoconstante/cinemma/data/repositories" />
       <recent name="$PROJECT_DIR$/app/src/main/java/com/fcoconstante/cinemma/data/preferences" />
       <recent name="$PROJECT_DIR$/app/src/main/java/com/fcoconstante/cinemma/data/network" />
       <recent name="$PROJECT_DIR$/app/src/main/res/layout" />
       <recent name="$PROJECT_DIR$/app/src/main/java/com/fcoconstante/cinemma/data/db" />
+    </key>
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="com.fcoconstante.cinemma.ui" />
+    </key>
+    <key name="android.template.packageName">
+      <recent name="com.fcoconstante.cinemma.ui.movies" />
+      <recent name="com.fcoconstante.cinemma.ui.home" />
+    </key>
+    <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="com.fcoconstante.cinemma.ui.movies" />
+      <recent name="com.fcoconstante.cinemma.data.network" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/main/java/com/fcoconstante/cinemma/data/db/entities" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -461,28 +380,28 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.32956383" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.49591836" visible="true" weight="0.16720517" />
       <window_info id="Structure" order="2" side_tool="true" />
-      <window_info id="Build Variants" order="3" side_tool="true" />
+      <window_info id="Build Variants" order="3" sideWeight="0.5040816" side_tool="true" visible="true" weight="0.16720517" />
       <window_info id="Image Layers" order="4" />
       <window_info id="Designer" order="5" />
       <window_info id="Resources Explorer" order="6" />
       <window_info id="Capture Tool" order="7" />
       <window_info id="Favorites" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="0" />
-      <window_info active="true" anchor="bottom" id="Logcat" order="1" visible="true" weight="0.32876712" />
+      <window_info anchor="bottom" id="Run" order="0" weight="0.32876712" />
+      <window_info anchor="bottom" id="Logcat" order="1" weight="0.32876712" />
       <window_info anchor="bottom" id="TODO" order="2" />
       <window_info anchor="bottom" id="Android Profiler" order="3" weight="0.32876712" />
       <window_info anchor="bottom" id="Debug" order="4" />
       <window_info anchor="bottom" id="Terminal" order="5" weight="0.32876712" />
       <window_info anchor="bottom" id="Event Log" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Flutter Performance" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32876712" />
+      <window_info anchor="bottom" id="Version Control" order="8" visible="true" weight="0.32876712" />
       <window_info anchor="bottom" id="Build" order="9" weight="0.24109589" />
       <window_info anchor="bottom" id="Find" order="10" weight="0.32876712" />
-      <window_info anchor="right" id="Preview" weight="0.32956383" />
       <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Gradle" order="2" />
@@ -490,6 +409,7 @@
       <window_info anchor="right" id="Flutter Inspector" order="4" />
       <window_info anchor="right" id="Flutter Outline" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Preview" order="7" weight="0.32956383" />
     </layout>
     <layout-to-restore>
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
@@ -572,32 +492,18 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+      <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
         </state>
       </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/nav_menu.xml">
+      <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="70" selection-start-line="70" selection-end-line="70" />
         </state>
       </provider>
     </entry>
@@ -616,14 +522,6 @@
           <caret line="22" column="34" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/item_movie.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="43" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/fcoconstante/cinemma/util/Delegates.kt">
       <provider selected="true" editor-type-id="text-editor">
@@ -663,16 +561,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/fcoconstante/cinemma/data/db/MovieDao.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-          <folding>
-            <element signature="e#42#251#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/fcoconstante/cinemma/util/Coroutines.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -684,12 +572,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/movie_fragment.xml">
+      <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
         </state>
       </provider>
-      <provider editor-type-id="android-designer2" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/fcoconstante/cinemma/data/network/SafeApiRequest.kt">
       <provider selected="true" editor-type-id="text-editor">
@@ -718,13 +606,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/fcoconstante/cinemma/ui/movies/MovieItem.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/fcoconstante/cinemma/ui/movies/MovieViewModel.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -735,40 +616,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/fcoconstante/cinemma/ui/movies/MovieFragment.kt">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/fcoconstante/cinemma/ui/home/HomeActivity.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="945">
-          <caret line="63" column="24" selection-start-line="63" selection-start-column="24" selection-end-line="63" selection-end-column="24" />
+        <state relative-caret-position="120">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
           <folding>
-            <element signature="e#44#515#0" expanded="true" />
+            <element signature="e#42#283#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/fcoconstante/cinemma/ui/movies/MoviesViewModelFactory.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-          <folding>
-            <element signature="e#44#191#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/navigation/nav_graph.xml">
+      <provider selected="true" editor-type-id="nav-designer" />
+      <provider editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/fcoconstante/cinemma/app/CiemaApp.kt">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/fcoconstante/cinemma/data/preferences/PreferenceProvider.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="26" column="48" selection-start-line="26" selection-start-column="48" selection-end-line="26" selection-end-column="48" />
+        <state relative-caret-position="315">
+          <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
           <folding>
-            <element signature="e#38#248#0" expanded="true" />
+            <element signature="e#51#167#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/fcoconstante/cinemma/data/network/DBMovieApi.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="6" column="52" selection-start-line="6" selection-start-column="52" selection-end-line="6" selection-end-column="52" />
         </state>
       </provider>
     </entry>
@@ -780,45 +648,119 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/fcoconstante/cinemma/ui/home/HomeActivity.kt">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/fcoconstante/cinemma/ui/movies/MoviesViewModelFactory.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="e#42#283#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="165">
+          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/fcoconstante/cinemma/app/CinemaApp.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="26" column="48" selection-start-line="26" selection-start-column="48" selection-end-line="26" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build/generated/source/kapt/debug/com/fcoconstante/cinemma/data/db/MovieDao_Impl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="100" column="48" selection-start-line="100" selection-start-column="48" selection-end-line="100" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/item_movie.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="51" column="41" selection-start-line="51" selection-start-column="41" selection-end-line="51" selection-end-column="41" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_home.xml">
+      <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="21" column="14" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
+        <state relative-caret-position="139">
+          <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_detail_movie.xml">
       <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/navigation/nav_graph.xml">
-      <provider editor-type-id="text-editor" />
-      <provider selected="true" editor-type-id="nav-designer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/fcoconstante/cinemma/data/preferences/PreferenceProvider.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+        <state relative-caret-position="220">
+          <caret line="22" column="71" selection-start-line="22" selection-start-column="71" selection-end-line="22" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/fcoconstante/cinemma/ui/movies/MovieItem.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
           <folding>
-            <element signature="e#51#167#0" expanded="true" />
+            <element signature="e#44#291#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/fcoconstante/cinemma/data/db/MovieDao.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+          <folding>
+            <element signature="e#42#251#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/fcoconstante/cinemma/ui/movies/DetailMovieActivity.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/fcoconstante/cinemma/data/network/DBMovieApi.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#48#206#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/fcoconstante/cinemma/data/repositories/MoviesRepository.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="45" selection-start-line="45" selection-end-line="45" />
+        <state relative-caret-position="305">
+          <caret line="59" column="23" selection-start-line="59" selection-start-column="23" selection-end-line="59" selection-end-column="23" />
           <folding>
             <element signature="e#52#713#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/fcoconstante/cinemma/ui/movies/MovieFragment.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="413">
+          <caret line="64" column="39" selection-start-line="64" selection-start-column="39" selection-end-line="64" selection-end-column="39" />
+          <folding>
+            <element signature="e#44#792#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="81" column="66" lean-forward="true" selection-start-line="44" selection-start-column="4" selection-end-line="81" selection-end-column="66" />
         </state>
       </provider>
     </entry>

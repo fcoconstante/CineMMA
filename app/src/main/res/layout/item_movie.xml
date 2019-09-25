@@ -49,9 +49,9 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
-                    android:text="@{`genre: `+movie.original_language}"
+                    android:text="@{`Vote: `+movie.vote_count}"
                     android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-                    android:textColor="@color/colorPrimary"
+                    android:textColor="@color/black"
                     tools:text="genre" />
 
                 <TextView
@@ -65,7 +65,7 @@
                     tools:text="popularity scores" />
 
                 <TextView
-                    android:textColor="@color/colorPrimary"
+                    android:textColor="@color/black"
                     android:textAppearance="@style/TextAppearance.AppCompat.Medium"
                     tools:text="release year"
                     android:layout_marginTop="10dp"

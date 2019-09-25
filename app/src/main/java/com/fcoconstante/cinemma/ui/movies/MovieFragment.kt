@@ -49,16 +49,22 @@ class MovieFragment : Fragment(), KodeinAware {
         })
     }
 
-    private fun initRecyclerView(quoteItem: List<MovieItem>) {
-        val adapterQuote = GroupAdapter<ViewHolder>().apply {
-            addAll(quoteItem)
+    private fun initRecyclerView(movieItem: List<MovieItem>) {
+        val adapterMovie = GroupAdapter<ViewHolder>().apply {
+            addAll(movieItem)
+            this.setOnItemClickListener { item, view ->  }
         }
 
         recyclerMovies.apply {
             layoutManager = LinearLayoutManager(context)
             setHasFixedSize(true)
-            adapter = adapterQuote
+            adapter = adapterMovie
         }
+
+        adapterMovie.setOnItemClickListener { item, view ->
+            //Intent to Detail Activity
+        }
+
     }
 
     private fun List<Movie>.toMovieItem(): List<MovieItem>{
